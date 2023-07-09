@@ -16,7 +16,7 @@ personagens.forEach((personagem) => {
 
         //muda a imgem grande do personagem
         const imagemPersonagemGrande = document.querySelector('.personagem-grande');
-        const idPersonagem = personagem.attributes.id.value
+        const idPersonagem = personagem.attributes.id.value;
 
         imagemPersonagemGrande.src = `./src/img/card-${idPersonagem}.png`;
 
